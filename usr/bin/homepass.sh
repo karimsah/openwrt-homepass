@@ -11,7 +11,7 @@ DATE=$(date)
 
 # The WiFi network number we need to toggle the MAC address of
 # This will use the first wifi in access point mode (ap)
-WIFI=$(uci show wireless | grep "mode=ap" | awk 'NR>1{print $1}' RS=[ FS=] | head -n 1)
+WIFI=$(uci show wireless | grep "mode='ap'" | awk 'NR>1{print $1}' RS=[ FS=] | head -n 1)
 
 if [ ! -s /etc/homepass.list ]; then
   echo "MAC address list is missing or zero in length."
