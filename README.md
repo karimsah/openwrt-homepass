@@ -13,5 +13,5 @@ Didn't have enough space on device to install full wget you won't be able to dow
 Worked around it by installing xampp on a local machine then wget'ing from it.
 Then call the script from cron every few minutes using the provided crontab template.
 
-To activate cron in OpenWRT: log in and run "/etc/init.d/cron enable".
+To activate cron in OpenWRT: log in and run "/etc/init.d/cron enable".  
 You might need to start it with "/etc/init.d/cron start"
