@@ -1,6 +1,6 @@
 # openwrt-homepass
 HomePass for OpenWRT. Forked from https://github.com/Nephiel/openwrt-homepass
-and modified as little as possible for TP-Link TL-WR841N(D) .
+and modified as little as possible for TP-Link TL-WR841N(D) .  
 May work for other devices.
 
 What you need : at least one Access Point (AP) set.  
