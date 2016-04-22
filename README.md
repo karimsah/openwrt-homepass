@@ -3,7 +3,7 @@ HomePass for OpenWRT. Forked from https://github.com/Nephiel/openwrt-homepass
 and modified as little as possible for TP-Link TL-WR841N(D) .
 May work for other devices.
 
-What you need : at least one Access Point (AP) set.
+What you need : at least one Access Point (AP) set.  
 What the script does : renames SSID and sets MAC address of first AP. SSIDs and Macs are read from homepass.list .
 
 Now allows to specify a SSID for each MAC.
