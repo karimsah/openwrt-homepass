@@ -8,11 +8,13 @@ What the script does : renames SSID and sets MAC address of first AP. SSIDs and 
 
 Now allows to specify a SSID for each MAC.
 
-Place the list in /etc/homepass.list and the script in /usr/bin/homepass.sh. Set the script as executable.  
+Place the list in /etc/homepass.list and the script in /usr/bin/homepass.sh. 
+Set the script as executable, with "chmod +x homepass.sh" or changing permission with your ftp client.  
 Then call the script from cron every few minutes using the provided crontab template.  
+
 Didn't have enough space on device to install full wget so couldn't download files directly from https sites (like github) .  
-Worked around it by installing xampp on a local machine then wget'ing from it.
-Another solution is to install SFTP using those commands :  
+Worked around it by installing xampp on a local machine then wget'ing from it.  
+Another easier solution is to install SFTP using those commands :  
 opkg update  
 opkg install openssh-sftp-server  
 
