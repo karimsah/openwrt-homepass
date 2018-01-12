@@ -5,7 +5,7 @@
 # /etc/homepass.list must contain at least one line with a MAC.
 # Optionally, you can specify a SSID after any MAC separating it with a tab.
 
-DEFAULT_SSID="NZ@McD1"
+DEFAULT_SSID="attwifi"
 
 DATE=$(date)
 
